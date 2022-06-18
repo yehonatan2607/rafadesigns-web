@@ -1,15 +1,17 @@
 {
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "react": "^18.2.0"
   },
   "name": "rafaweb",
   "version": "0.0.1",
   "description": "this is a portfolio website for rafadesigns",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "node app"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "server": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/yehonatan2607/rafadesigns-web/issues"
   },
-  "homepage": "https://github.com/yehonatan2607/rafadesigns-web#readme"
+  "homepage": "https://github.com/yehonatan2607/rafadesigns-web#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
