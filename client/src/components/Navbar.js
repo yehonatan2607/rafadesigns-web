@@ -1,15 +1,18 @@
 import React from 'react'
 import './Navbar.css'
+
+
+
 function Navbar() {
   return (
     <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Resume</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Services</a></li>
-        </ul>
+      <div class="navbar">
+        <div class="navbar-item">Home</div>
+        <div class="navbar-item">About</div>
+        <div class="navbar-item"><img src="http://localhost:8080/images/logo.png" width="75" height="75" /></div>
+        <div class="navbar-item">Portfolio</div>
+        <div class="navbar-item">Services</div>
+      </div>
     </nav>
 
   )

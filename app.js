@@ -13,5 +13,7 @@ app.get('/api/customers', (req, res) =>{
     res.json(cusromers);
 });
 
+app.use('/images', express.static('images'));
+
 app.listen(PORT, () => console.log("server listening in port ", PORT));
 
