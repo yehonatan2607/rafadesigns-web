@@ -1,0 +1,21 @@
+img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.HeroTitle{
+    text-align: center;
+    font-family: "Open Sans Hebrew";
+	font-weight: bold;
+	font-size: 40pt;
+	color: white;
+}
+.HeroSubtitle{
+    text-align: center;
+    font-family: "Open Sans Hebrew";
+    font-weight: lighter;
+    font-size: 20pt;
+    color: white;
+}
