@@ -10,9 +10,21 @@ import {
 import './Navbar.css'
 
 const Navbar = ({ toggle }) => {
+  window.addEventListener("scroll", function(event){
+    const Navigation = this.document.querySelector("#navbar");
+    var scroll = window.scrollY;
+    if (scroll > 100 ) {
+      this.document.getElementById("navbar").classList.remove("nav--top")
+      this.document.getElementById("navbar").classList.add("nav--fixed")
+    }
+    else if (scroll === 0 &&  this.document.getElementById("navbar").classList.contains("nav--fixed") === true) {
+      this.document.getElementById("navbar").classList.replace("nav--fixed", "nav--top");
+    }
+  });
+
   return (
     <>
-      <Nav>
+      <Nav id='navbar'>
         <NavLink to='/'>
           <img id="NavLogo" src='http://localhost:8080/images/logo.png' alt='logo'/>
         </NavLink>

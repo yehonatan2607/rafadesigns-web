@@ -16,9 +16,9 @@ export const HeroBg = styled.div`
 export const HeroContainer = styled.div`
     background: #0c0c0c;
     display: flex;
+    flex-direction: column;
     jistify-content: center;
     align-items: center;
-    padding: 0 30px;
     width: 100%;
     height: 800px;
     position: relative;
@@ -28,6 +28,7 @@ export const HeroContainer = styled.div`
 export const HeroContent = styled.div`
     width: 100%;
     height: 100%;
+    padding: 0 30px;
     display: flex;
     justify-content: center;
     align-items: center;

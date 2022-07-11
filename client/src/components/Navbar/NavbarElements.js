@@ -2,8 +2,11 @@ import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+
 export const Nav = styled.nav`
-  background: rgba(0, 0, 0, 1);
+  position: absolute;
+  width:100%;
+  background: none;
   height: 80px;
   display: flex;
   justify-content: space-between;

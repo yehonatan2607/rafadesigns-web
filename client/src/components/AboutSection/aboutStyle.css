@@ -1,0 +1,98 @@
+#aboutImg{
+    width: auto;
+    height: 400px;
+    background-color: #111111;
+    border-radius: 25px 0px 0px 25px;
+    border: 3px solid #ccc;
+}
+
+
+.rightContainerFlex{
+    display:  flex;
+    flex-direction: column;
+}
+.rightContainerTitle{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-weight: 300;
+    font-size: 2rem;
+    color: #00ffff;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+.aboutText{
+    font-family: "SimSun-ExtB";
+	font-weight: 200;
+	color: white;
+	font-size: 1.1rem;
+	line-height: 25px;
+    overflow: unset;
+}
+.skillsContainer{
+    margin-top: 100px;
+    font-size: 1.5rem;
+}
+.skillWarpper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom:  20px;
+}
+.skillBar{
+    background-color: #ccc;
+    width: 100%;
+    height: 7.5px;
+}
+.skillTitle{
+    margin: 10px 0px;
+    color: white;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 500;
+    font-size: 17px;
+}
+.photoshopSlidebar{
+    background-color: #00ffff;
+    height: 100%;
+    animation: photoshopSlide 5s alternate;
+    width: 90%;
+}
+.htmlCssSlidebar{
+    background-color: #00ffff;
+    height: 100%;
+    animation: htmlCssSlide 5s alternate;
+    width: 82%;
+}
+.wordpressSlidebar{
+    background-color: #00ffff;
+    height: 100%;
+    animation: wordpressSlide 5s alternate;
+    width: 70%;
+}
+
+
+@keyframes photoshopSlide {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes htmlCssSlide {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 82%;
+    }
+}
+
+@keyframes wordpressSlide {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
